@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h2>Signup</h2>
+
+    <form action="/user/signup" method="POST">
+        <div class="input-group">
+            <label id="name">Name</label>
+            <input required for="name" type="text" name="name" />
+        </div>
+        <div class="input-group">
+            <label id="email">Email</label>
+            <input required for="email" type="email" name="email" />
+        </div>
+        <div class="input-group">
+            <label id="password">Password</label>
+            <input required for="password" type="password" name="password" />
+        </div>
+        <button type="submit">Signup</button>
+    </form>
+</body>
+</html>
